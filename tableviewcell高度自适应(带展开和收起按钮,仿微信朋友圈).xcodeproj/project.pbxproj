@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844C79062108177D004F44CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C79052108177D004F44CE /* AppDelegate.swift */; };
+		844C79082108177D004F44CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C79072108177D004F44CE /* ViewController.swift */; };
+		844C790B2108177D004F44CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C79092108177D004F44CE /* Main.storyboard */; };
+		844C790D2108177D004F44CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844C790C2108177D004F44CE /* Assets.xcassets */; };
+		844C79102108177D004F44CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C790E2108177D004F44CE /* LaunchScreen.storyboard */; };
+		844C791B2108177E004F44CE /* tableviewcell______________________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C791A2108177E004F44CE /* tableviewcell______________________Tests.swift */; };
+		844C792A21081883004F44CE /* SMCListsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844C792821081883004F44CE /* SMCListsCell.xib */; };
+		844C792B21081883004F44CE /* SMCListsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C792921081883004F44CE /* SMCListsCell.swift */; };
+		844C792D2108188F004F44CE /* SMCListsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C792C2108188F004F44CE /* SMCListsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844C79172108177E004F44CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844C78FA2108177D004F44CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844C79012108177D004F44CE;
+			remoteInfo = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844C79022108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844C79052108177D004F44CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844C79072108177D004F44CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		844C790A2108177D004F44CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844C790C2108177D004F44CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844C790F2108177D004F44CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844C79112108177D004F44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844C79162108177E004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844C791A2108177E004F44CE /* tableviewcell______________________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tableviewcell______________________Tests.swift"; sourceTree = "<group>"; };
+		844C791C2108177E004F44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844C792821081883004F44CE /* SMCListsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCListsCell.xib; sourceTree = "<group>"; };
+		844C792921081883004F44CE /* SMCListsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCListsCell.swift; sourceTree = "<group>"; };
+		844C792C2108188F004F44CE /* SMCListsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCListsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844C78FF2108177D004F44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C79132108177E004F44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844C78F92108177D004F44CE = {
+			isa = PBXGroup;
+			children = (
+				844C79042108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈) */,
+				844C79192108177E004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests */,
+				844C79032108177D004F44CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844C79032108177D004F44CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844C79022108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈).app */,
+				844C79162108177E004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844C79042108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈) */ = {
+			isa = PBXGroup;
+			children = (
+				844C79052108177D004F44CE /* AppDelegate.swift */,
+				844C79072108177D004F44CE /* ViewController.swift */,
+				844C792521081805004F44CE /* tableviewVC */,
+				844C79092108177D004F44CE /* Main.storyboard */,
+				844C790C2108177D004F44CE /* Assets.xcassets */,
+				844C790E2108177D004F44CE /* LaunchScreen.storyboard */,
+				844C79112108177D004F44CE /* Info.plist */,
+			);
+			path = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)";
+			sourceTree = "<group>";
+		};
+		844C79192108177E004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				844C791A2108177E004F44CE /* tableviewcell______________________Tests.swift */,
+				844C791C2108177E004F44CE /* Info.plist */,
+			);
+			path = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests";
+			sourceTree = "<group>";
+		};
+		844C792521081805004F44CE /* tableviewVC */ = {
+			isa = PBXGroup;
+			children = (
+				844C792721081823004F44CE /* Controllers */,
+				844C79262108181A004F44CE /* Views */,
+			);
+			path = tableviewVC;
+			sourceTree = "<group>";
+		};
+		844C79262108181A004F44CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				844C792921081883004F44CE /* SMCListsCell.swift */,
+				844C792821081883004F44CE /* SMCListsCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		844C792721081823004F44CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				844C792C2108188F004F44CE /* SMCListsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844C79012108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844C791F2108177E004F44CE /* Build configuration list for PBXNativeTarget "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)" */;
+			buildPhases = (
+				844C78FE2108177D004F44CE /* Sources */,
+				844C78FF2108177D004F44CE /* Frameworks */,
+				844C79002108177D004F44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)";
+			productName = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)";
+			productReference = 844C79022108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈).app */;
+			productType = "com.apple.product-type.application";
+		};
+		844C79152108177E004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844C79222108177E004F44CE /* Build configuration list for PBXNativeTarget "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests" */;
+			buildPhases = (
+				844C79122108177E004F44CE /* Sources */,
+				844C79132108177E004F44CE /* Frameworks */,
+				844C79142108177E004F44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844C79182108177E004F44CE /* PBXTargetDependency */,
+			);
+			name = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests";
+			productName = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests";
+			productReference = 844C79162108177E004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844C78FA2108177D004F44CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					844C79012108177D004F44CE = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					844C79152108177E004F44CE = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 844C79012108177D004F44CE;
+					};
+				};
+			};
+			buildConfigurationList = 844C78FD2108177D004F44CE /* Build configuration list for PBXProject "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844C78F92108177D004F44CE;
+			productRefGroup = 844C79032108177D004F44CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844C79012108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈) */,
+				844C79152108177E004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844C79002108177D004F44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C79102108177D004F44CE /* LaunchScreen.storyboard in Resources */,
+				844C790D2108177D004F44CE /* Assets.xcassets in Resources */,
+				844C790B2108177D004F44CE /* Main.storyboard in Resources */,
+				844C792A21081883004F44CE /* SMCListsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C79142108177E004F44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844C78FE2108177D004F44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C79082108177D004F44CE /* ViewController.swift in Sources */,
+				844C79062108177D004F44CE /* AppDelegate.swift in Sources */,
+				844C792D2108188F004F44CE /* SMCListsVC.swift in Sources */,
+				844C792B21081883004F44CE /* SMCListsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C79122108177E004F44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C791B2108177E004F44CE /* tableviewcell______________________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844C79182108177E004F44CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844C79012108177D004F44CE /* tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈) */;
+			targetProxy = 844C79172108177E004F44CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844C79092108177D004F44CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844C790A2108177D004F44CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844C790E2108177D004F44CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844C790F2108177D004F44CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844C791D2108177E004F44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844C791E2108177E004F44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844C79202108177E004F44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weyes.tableviewcell----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844C79212108177E004F44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weyes.tableviewcell----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		844C79232108177E004F44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weyes.tableviewcell----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈).app/tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)";
+			};
+			name = Debug;
+		};
+		844C79242108177E004F44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weyes.tableviewcell----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈).app/tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844C78FD2108177D004F44CE /* Build configuration list for PBXProject "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C791D2108177E004F44CE /* Debug */,
+				844C791E2108177E004F44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844C791F2108177E004F44CE /* Build configuration list for PBXNativeTarget "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C79202108177E004F44CE /* Debug */,
+				844C79212108177E004F44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844C79222108177E004F44CE /* Build configuration list for PBXNativeTarget "tableviewcell高度自适应(带展开和收起按钮,仿微信朋友圈)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C79232108177E004F44CE /* Debug */,
+				844C79242108177E004F44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844C78FA2108177D004F44CE /* Project object */;
+}
